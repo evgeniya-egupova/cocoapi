@@ -18,6 +18,7 @@ setup(
     packages=['pycocotools'],
     package_dir = {'pycocotools': 'pycocotools'},
     install_requires=[
+        'numpy~=1.19.2',
         'setuptools>=18.0',
         'cython>=0.27.3',
         'matplotlib>=2.1.0'
